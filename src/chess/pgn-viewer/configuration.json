@@ -1,0 +1,14 @@
+{
+  "fieldSets": [
+    {
+      "fields": [
+        {
+          "dataType": "string",
+          "label": "PGN",
+          "name": "pgn",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

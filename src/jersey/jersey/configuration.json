@@ -1,0 +1,104 @@
+{
+  "fieldSets": [
+    {
+      "fields": [
+        {
+          "dataType": "string",
+          "label": "shirt-text",
+          "name": "shirtText",
+          "type": "text",
+          "default": ""
+        },
+        {
+          "dataType": "object",
+          "label": "text-color",
+          "name": "textColor",
+          "type": "colorPalette",
+          "default": "rgb(0, 0, 0)"
+        },
+        {
+          "dataType": "object",
+          "label": "shirt-color",
+          "name": "shirtColor",
+          "type": "colorPalette"
+        },
+        {
+          "dataType": "object",
+          "label": "sleeve-color",
+          "name": "sleeveColor",
+          "type": "colorPalette"
+        },
+        {
+          "dataType": "string",
+          "label": "shirt-style",
+          "name": "shirtStyle",
+          "type": "select",
+          "typeOptions": {
+            "validValues": [
+              {
+                "value": "checkered"
+              },
+              {
+                "value": "plain"
+              },
+              {
+                "value": "single-band"
+              },
+              {
+                "value": "two-color"
+              },
+              {
+                "value": "striped"
+              },
+              {
+                "value": "striped-thin"
+              },
+              {
+                "value": "striped-thick"
+              },
+              {
+                "value": "hoops"
+              },
+              {
+                "value": "waves"
+              },
+              {
+                "value": "dashed"
+              }
+            ]
+          },
+          "defaultValue": "plain"          
+        },
+        {
+          "dataType": "object",
+          "label": "shirt-style-color",
+          "name": "shirtStyleColor",
+          "type": "colorPalette"
+        },
+        {
+          "dataType": "string",
+          "label": "shirt-style-direction",
+          "name": "shirtStyleDirection",
+          "type": "select",
+          "typeOptions": {
+            "validValues": [
+              {
+                "value": "horizontal"
+              },
+              {
+                "value": "vertical"
+              },
+              {
+                "value": "diagonal-left"
+              },
+              {
+                "value": "diagonal-right"
+              }
+            ]
+          },
+          "defaultValue": "vertical"          
+        }
+      ]
+    }
+  ]
+}
